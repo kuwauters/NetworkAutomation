@@ -1,0 +1,7 @@
+#topology description for the network automation hands-on excercises
+one VM running a IOU VM
+  4 routers connected in a full meshh
+  one router connected to a cloud for inband connectivity (ssh)
+  all routers run different routing protocols (bgp, isis)
+one VM running ansible and also use for script development
+ 
