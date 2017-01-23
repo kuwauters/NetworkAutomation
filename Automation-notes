@@ -1,0 +1,5 @@
+[Ansible]
+  - running commands on devices
+  --- ansible all -m raw -a "executable='' sh int desc"
+  - running commands on a specific group 
+  --- -l <group-name>

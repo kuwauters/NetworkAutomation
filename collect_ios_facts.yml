@@ -1,0 +1,17 @@
+---
+- name: "collect fact with ios_facts"
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+   - results: results
+  tasks:
+   - file: 
+       path={{results}} state=directory
+     run_once: true
+   - ios_facts: provider="{{ios_provider}}"
+     register: result
+   - copy:
+      content: | 
+        {{result.ansible_facts|to_nice_yaml(indent=4)}}
+      dest: {{results}}/{{inventory_hostname}}.yml
