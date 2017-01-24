@@ -4,14 +4,13 @@
   gather_facts: no
   connection: local
   vars:
-   - results: results
+    - results: results
   tasks:
-   - file: 
+    - file: 
        path={{results}} state=directory
-     run_once: true
-   - ios_facts: provider="{{ios_provider}}"
-     register: result
-   - copy:
-      content: | 
-        {{result.ansible_facts|to_nice_yaml(indent=4)}}
-      dest: {{results}}/{{inventory_hostname}}.yml
+      run_once: true
+    - ios_facts: provider="{{ios_provider}}"
+      register: result
+    - copy:
+       content: {{result.ansible_facts|to_nice_yaml(indent=4)}}
+       dest: {{results}}/{{inventory_hostname}}.yml
