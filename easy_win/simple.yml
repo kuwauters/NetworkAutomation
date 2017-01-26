@@ -1,0 +1,13 @@
+---
+ - hosts: all
+   gather_facts: no
+   vars:
+     arp-file= sh_arp.txt
+   tasks:
+    - file: path={{arp-file}} state=touch
+    - raw: "show ip arp"
+      register: show
+    - debug: var=show.stdout_lines
+    - raw: "show isis nei"
+      register: show
+    - debug: var=show.stdout_line

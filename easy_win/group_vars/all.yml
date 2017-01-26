@@ -1,0 +1,8 @@
+---
+  #global parameters
+  connection: local
+  gather_facts: no
+  #loopback ip's
+  loopback: ['1.1.1.1','1.1.1.2','1.1.1.3']
+
+
