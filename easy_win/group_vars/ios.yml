@@ -1,16 +1,7 @@
 ---
-  #global parameters
 ansible_device_os: ios
 cli:
   username: "test"
   password: "test"
   host: "{{inventory_hostname}}"
   transport: cli
-
-
-connection: local
-gather_facts: no
-#loopback ip's
-loopback: ['1.1.1.1','1.1.1.2','1.1.1.3']
-
-
