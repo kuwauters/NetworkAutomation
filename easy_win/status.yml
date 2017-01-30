@@ -1,0 +1,36 @@
+---
+- hosts: router
+  connection: local
+  serial: 10
+  vars:
+  - results: results
+  tasks:
+  - name: test connectivity
+    ios_command:
+     commands: 
+       - ping {{item}}
+     timeout: 3
+     retries: 1
+     wait_for: result[0] contains "!!!"
+     provider: "{{cli}}"
+    register: results
+    with_items: "{{loopback}}"
+  
+  - copy:
+      content: "{{results}}|to_nice_yaml (indent=0)"
+      dest: output/{{inventory_hostname}}-conn.yml
+
+  - name: get device status
+    ios_command:
+     commands:
+       - show inventory
+       - sh int desc
+       - sh isis nei
+     provider: "{{cli}}"
+    register: results
+
+  - copy:
+      content: "{{results.stdout_lines}}|to_nice_yaml(indent=4)"
+      dest: output/{{inventory_hostname}}.yml  
+
+  ignore_errors: yes

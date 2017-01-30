@@ -1,0 +1,26 @@
+---
+- hosts: router
+  connection: local
+  serial: 10
+  vars:
+  - results: results
+  tasks:
+  - name: get device status
+    ios_command:
+     commands: 
+       - ping {{item}}
+       - show inventory
+       - sh int desc
+       - sh isis nei
+     timeout: 3
+     retries: 1
+     wait_for: result[0] contains "!!!"
+     provider: "{{cli}}"
+    register: results
+    with_items: "{{loopback}}"
+  - blockinfile:
+     dest: output/result.txt
+     marker: "### {mark} {{inventory_hostname}}"
+     block: "{{results.stdout}}"  
+
+  ignore_errors: yes
