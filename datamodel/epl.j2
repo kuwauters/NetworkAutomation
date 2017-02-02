@@ -1,0 +1,11 @@
+{# Building EPL's based on yml and j2#}
+
+{# setting up connection based on host* where we need to integrate a lookup in a json#}
+
+conf t
+{% for site in sites%}
+	int {{sites.hosts.int}}
+	description tl={{codif}};bw={{bandwidth}};srv={{service type}}
+	encapsulation dotq {{sites.hosts.ltp}}
+	xconnect {{sites.hosts}} vcid {{vcid}}
+{% endfor %}

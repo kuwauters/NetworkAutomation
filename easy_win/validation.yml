@@ -1,7 +1,6 @@
 ---
 - hosts: router
   connection: local
-  gather_facts: no
   tasks:
   - name: check connectivity
     ios_command:

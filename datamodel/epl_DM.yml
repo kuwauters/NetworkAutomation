@@ -1,0 +1,13 @@
+---
+name: epl datamodel
+codif: "003239824"
+  bandwidth: "10M"
+  service type: "epl"
+  sites:
+    hosts: "vIOS"
+     int: "Gi0/4"
+     ltp: "123"
+    hosts: "CSR"
+     int: "Gi0/5"
+     ltp: "321"
+  vcid: "22046"
