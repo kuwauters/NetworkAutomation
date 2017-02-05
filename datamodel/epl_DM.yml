@@ -1,13 +1,13 @@
 ---
-name: epl datamodel
-codif: "003239824"
-  bandwidth: "10M"
-  service type: "epl"
-  sites:
-    hosts: "vIOS"
-     int: "Gi0/4"
-     ltp: "123"
-    hosts: "CSR"
-     int: "Gi0/5"
-     ltp: "321"
-  vcid: "22046"
+ name: epl_datamodel
+ epl:
+ codif: 003239824
+ bandwidth: 10M
+ servicetype: epl
+ hostA_hostname: vIOS
+ hostA_int: Gi0/4
+ hostA_ltp: 123
+ hostB_hostname: CSR
+ hostB_int: Gi0/5
+ hostB_ltp: 321
+ vcid: 22046
