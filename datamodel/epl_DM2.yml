@@ -1,0 +1,16 @@
+---
+ name: epl_datamodel
+ epl:
+ codif: 003239824
+ bandwidth: 10M
+ servicetype: epl
+ hosts:
+    - hostname: vIOS
+      int: Gi0/4
+      ltp: 123
+      remote: CSR
+    - hostname: CSR
+      int: Gi0/5
+      ltp: 321
+      remote: vIOS
+ vcid: 22046

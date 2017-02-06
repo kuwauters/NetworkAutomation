@@ -1,0 +1,12 @@
+{% for host in hosts %}
+ssh {{inv_dct[host.hostname]}}
+enable
+conf t
+
+int {{host.int}}
+description tl={{codif}};bw={{bandwidth}};srv={{servicetype}}
+encapsulation dotq {{host.ltp}}
+xconnect {{inv_dct[host.remote]}} vcid {{vcid}}
+!
+
+{% endfor %}
