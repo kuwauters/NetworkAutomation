@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="action_page.php">
+  SiteA:
+  <select name="hostname">
+    {% for i in hosts %}
+       <option value={{i}}>{{i}}</option>
+    {% endfor %}
+  </select>
+  siteB:
+  <select name="hostname">
+   {% for i in hosts %}
+      <option value={{i}}>{{i}}</option>
+   {% endfor %}
+   </select>
+   vlan Side A: <input type="text" name="vlan" value="">
+    vlan side B:  <input type="text" name="vlan" value="">
+    VCID: <input type="text" name="vcid" value="">
+   <input type="submit">
+</form>
+</body>
+</html>

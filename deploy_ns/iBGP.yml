@@ -1,0 +1,4 @@
+---
+servicetype: iBGP
+host: all
+asn: 6774
