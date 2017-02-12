@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style>
+    body {
+      background-color: black;
+      color: magenta;
+    }
+  </style>
+</head>
+
 <body>
 
-<form action="action_page.php">
+<form action="epl.html">
   SiteA:
   <select name="hostname">
     {% for i in hosts %}
        <option value={{i}}>{{i}}</option>
     {% endfor %}
   </select>
-  siteB:
+  <br>
+  SiteB:
   <select name="hostname">
    {% for i in hosts %}
       <option value={{i}}>{{i}}</option>
    {% endfor %}
    </select>
+   <br>
    vlan Side A: <input type="text" name="vlan" value="">
-    vlan side B:  <input type="text" name="vlan" value="">
-    VCID: <input type="text" name="vcid" value="">
-   <input type="submit">
+   <br>
+   vlan side B:  <input type="text" name="vlan" value="">
+   <br>
+   VCID: <input type="text" name="vcid" value="">
+   <br>
+   <input type="submit" name= 'submit' value="build_epl">
 </form>
 </body>
 </html>

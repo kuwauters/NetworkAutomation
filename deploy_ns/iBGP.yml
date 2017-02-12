@@ -2,3 +2,5 @@
 servicetype: iBGP
 host: all
 asn: 6774
+routing:
+  - redistribution: connected
