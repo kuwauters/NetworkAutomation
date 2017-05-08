@@ -1,0 +1,9 @@
+Value SLOT (\w)
+Value CARD (.*)
+Value PN (.*)
+Value SN (.*)
+
+Start
+  ^${SLOT}\s+${CARD}\s. 
+  ^.*Part number\s+.:${PN}
+  ^.*Serial number\s+.:${SN} -> Record

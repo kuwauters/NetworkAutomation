@@ -1,0 +1,221 @@
+bru-11-r4>sh inventory
+NAME: "CISCO7609-S", DESCR: "Cisco Systems Cisco 7600 9-slot Chassis System"
+PID: CISCO7609-S       , VID: V01, SN: FOX1219G451
+
+NAME: "WS-C6K-VTT-E 1", DESCR: "VTT-E FRU 1"
+PID: WS-C6K-VTT-E      , VID:    , SN: SMT1205J368
+
+NAME: "WS-C6K-VTT-E 2", DESCR: "VTT-E FRU 2"
+PID: WS-C6K-VTT-E      , VID:    , SN: SMT1205J361
+
+NAME: "WS-C6K-VTT-E 3", DESCR: "VTT-E FRU 3"
+PID: WS-C6K-VTT-E      , VID:    , SN: SMT1205J375
+
+NAME: "CLK-7600 1", DESCR: "OSR-7600 Clock FRU 1"
+PID: CLK-7600          , VID:    , SN: NWG121700QQ
+
+NAME: "CLK-7600 2", DESCR: "OSR-7600 Clock FRU 2"
+PID: CLK-7600          , VID:    , SN: NWG121700QQ
+
+NAME: "module 1", DESCR: "76-ES+XC-40G3CXL 22 ports 7600 ES+ Rev. 1.4"
+PID: 76-ES+XC-40G3CXL  , VID: V02, SN: JAE150207LS
+
+NAME: "sub-module of 1", DESCR: "7600-ES+40C ES+ 2xTGE XFP 20xGE SFP Rev. 1.1"
+PID: 7600-ES+40C       , VID:    , SN: JAE14530D9C
+
+NAME: "switching engine sub-module of 1", DESCR: "7600-ES+3CXL 7600 ES+ DFC XL Rev. 1.2"
+PID: 7600-ES+3CXL      , VID:    , SN: JAE150202QY
+
+NAME: "Transceiver Gi1/1", DESCR: "Transceiver 1000BaseLX Gi1/1"
+PID: SFP-GE-L            , VID: B   , SN: FNS14310DPF
+
+NAME: "Transceiver Gi1/2", DESCR: "Transceiver 1000BaseLX Gi1/2"
+PID: SFP-GE-L            , VID: B   , SN: FNS13310Q8L
+
+NAME: "Transceiver Gi1/3", DESCR: "Transceiver 1000BaseLX Gi1/3"
+PID: SFP-GE-L            , VID: B   , SN: FNS134104QK
+
+NAME: "Transceiver Gi1/4", DESCR: "Transceiver 1000BaseLX Gi1/4"
+PID: SFP-GE-L            , VID: B   , SN: FNS134104Q3
+
+NAME: "Transceiver Gi1/5", DESCR: "Transceiver 1000BaseLX Gi1/5"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H71
+
+NAME: "Transceiver Gi1/7", DESCR: "Transceiver 1000BaseLX Gi1/7"
+PID: SFP-GE-L            , VID: B   , SN: FNS134104S1
+
+NAME: "Transceiver Gi1/8", DESCR: "Transceiver 1000BaseLX Gi1/8"
+PID: SFP-GE-L            , VID: B   , SN: FNS13370B56
+
+NAME: "Transceiver Gi1/9", DESCR: "Transceiver 1000BaseLX Gi1/9"
+PID: SFP-GE-L            , VID: B   , SN: FNS134104RL
+
+NAME: "Transceiver Gi1/10", DESCR: "Transceiver 1000BaseLX Gi1/10"
+PID: SFP-GE-L            , VID: B   , SN: FNS14310DPZ
+
+NAME: "Transceiver Gi1/11", DESCR: "Transceiver 1000BaseLX Gi1/11"
+PID: SFP-GE-L            , VID: A   , SN: FNS12390CR2
+
+NAME: "Transceiver Gi1/12", DESCR: "Transceiver 1000BaseLX Gi1/12"
+PID: SFP-GE-L            , VID: B   , SN: FNS14151V1N
+
+NAME: "Transceiver Gi1/13", DESCR: "Transceiver 1000BaseLX Gi1/13"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H75
+
+NAME: "Transceiver Gi1/14", DESCR: "Transceiver 1000BaseLX Gi1/14"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H4H
+
+NAME: "Transceiver Gi1/15", DESCR: "Transceiver 1000BaseLX Gi1/15"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H6L
+
+NAME: "Transceiver Gi1/16", DESCR: "Transceiver 1000BaseT Gi1/16"
+PID: N/A                 , VID: B   , SN: MTC1133007M
+
+NAME: "Transceiver Gi1/18", DESCR: "Transceiver 1000BaseLX Gi1/18"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H5B
+
+NAME: "Transceiver Gi1/19", DESCR: "Transceiver 1000BaseLX Gi1/19"
+PID: SFP-GE-L            , VID: B   , SN: FNS14151GYD
+
+NAME: "Transceiver Te1/21", DESCR: "Transceiver 10Gbase-LR Te1/21"
+PID: XFP-10GLR-OC192SR   , VID: D  , SN: ECL1413030F
+
+NAME: "Transceiver Te1/22", DESCR: "Transceiver 10Gbase-LR Te1/22"
+PID: XFP-10GLR-OC192SR   , VID: D  , SN: ECL141302ZT
+
+NAME: "module 2", DESCR: "7600-ES+20G3CXL 20 ports 7600 ES+ Rev. 1.6"
+PID: 7600-ES+20G3CXL   , VID: V08, SN: JAE14170QXX
+
+NAME: "sub-module of 2", DESCR: "7600-ES+20G 7600 ES+ 20xGE SFP Rev. 1.2"
+PID: 7600-ES+20G       , VID:    , SN: JAE1416098X
+
+NAME: "switching engine sub-module of 2", DESCR: "7600-ES+3CXL 7600 ES+ DFC XL Rev. 1.4"
+PID: 7600-ES+3CXL      , VID:    , SN: JAE14170RJA
+
+NAME: "Transceiver Gi2/1", DESCR: "Transceiver 1000BaseLX Gi2/1"
+PID: SFP-GE-L            , VID: A   , SN: SPC1608072L
+
+NAME: "Transceiver Gi2/2", DESCR: "Transceiver 1000BaseLX Gi2/2"
+PID: GLC-LH-SMD          , VID: A   , SN: FNS17031F1J
+
+NAME: "Transceiver Gi2/3", DESCR: "Transceiver 1000BaseLX Gi2/3"
+PID: GLC-LH-SMD          , VID: 002 , SN: AVJ19433WYE
+
+NAME: "Transceiver Gi2/4", DESCR: "Transceiver 1000BaseLX Gi2/4"
+PID: GLC-LH-SMD          , VID: 002 , SN: AVJ19433WZU
+
+NAME: "Transceiver Gi2/5", DESCR: "Transceiver 1000BaseLX Gi2/5"
+PID: SFP-GE-L            , VID: B   , SN: FNS14151EXU
+
+NAME: "Transceiver Gi2/6", DESCR: "Transceiver 1000BaseLX Gi2/6"
+PID: SFP-GE-L            , VID: A   , SN: SPC1608073F
+
+NAME: "Transceiver Gi2/7", DESCR: "Transceiver 1000BaseLX Gi2/7"
+PID: SFP-GE-L            , VID: B   , SN: FNS134104QG
+
+NAME: "Transceiver Gi2/9", DESCR: "Transceiver 1000BaseLX Gi2/9"
+PID: GLC-LH-SMD          , VID: A   , SN: FNS17031F8J
+
+NAME: "Transceiver Gi2/10", DESCR: "Transceiver 1000BaseLX Gi2/10"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H5L
+
+NAME: "Transceiver Gi2/11", DESCR: "Transceiver 1000BaseLX Gi2/11"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H7A
+
+NAME: "Transceiver Gi2/12", DESCR: "Transceiver 1000BaseLX Gi2/12"
+PID: GLC-LH-SMD          , VID: A   , SN: FNS17341FV5
+
+NAME: "Transceiver Gi2/14", DESCR: "Transceiver 1000BaseLX Gi2/14"
+PID: SFP-GE-L            , VID: B   , SN: FNS13310Q8M
+
+NAME: "Transceiver Gi2/15", DESCR: "Transceiver 1000BaseLX Gi2/15"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H6Y
+
+NAME: "Transceiver Gi2/16", DESCR: "Transceiver 1000BaseLX Gi2/16"
+PID: SFP-GE-L            , VID: A   , SN: FNS12140H7C
+
+NAME: "Transceiver Gi2/18", DESCR: "Transceiver 1000BaseLX Gi2/18"
+PID: N/A                 , VID: A0  , SN: H11L842
+
+NAME: "Transceiver Gi2/19", DESCR: "Transceiver 1000BaseLX Gi2/19"
+PID: GLC-LH-SMD          , VID: 002 , SN: AVJ19433X09
+
+NAME: "Transceiver Gi2/20", DESCR: "Transceiver 1000BaseLX Gi2/20"
+PID: GLC-LH-SMD          , VID: A   , SN: FNS171729CQ
+
+NAME: "module 5", DESCR: "RSP720-3C-GE 2 ports Route Switch Processor 720 Rev. 5.2"
+PID: RSP720-3C-GE      , VID: V04, SN: JAE1222JI1V
+
+NAME: "msfc sub-module of 5", DESCR: "7600-MSFC4 C7600 MSFC4 Daughterboard Rev. 1.1"
+PID: 7600-MSFC4        , VID: 000, SN: JAE1222JLXB
+
+NAME: "switching engine sub-module of 5", DESCR: "7600-PFC3C Policy Feature Card 3 Rev. 1.1"
+PID: 7600-PFC3C        , VID: 000, SN: JAE1221J21E
+
+NAME: "module 6", DESCR: "RSP720-3C-GE 2 ports Route Switch Processor 720 Rev. 5.2"
+PID: RSP720-3C-GE      , VID: V04, SN: JAE1222JLM2
+
+NAME: "msfc sub-module of 6", DESCR: "7600-MSFC4 C7600 MSFC4 Daughterboard Rev. 1.1"
+PID: 7600-MSFC4        , VID: 000, SN: JAE1222JLY9
+
+NAME: "switching engine sub-module of 6", DESCR: "7600-PFC3C Policy Feature Card 3 Rev. 1.1"
+PID: 7600-PFC3C        , VID: 000, SN: JAE1221IWR0
+
+NAME: "module 8", DESCR: "76-ES+T-4TG 4 ports 7600 ES+T Rev. 1.6"
+PID: 76-ES+T-4TG       , VID: V07, SN: JAE14370798
+
+NAME: "sub-module of 8", DESCR: "76-ES+T-4TGQ 7600 ES+T 4x10GE XFP ITU Rev. 1.2"
+PID: 76-ES+T-4TGQ      , VID:    , SN: JAE143707G7
+
+NAME: "switching engine sub-module of 8", DESCR: "7600-ES+3CXL 7600 ES+ DFC XL Rev. 1.4"
+PID: 7600-ES+3CXL      , VID:    , SN: JAE14380I3C
+
+NAME: "Transceiver Te8/1", DESCR: "Transceiver 10Gbase-LR Te8/1"
+PID: XFP-10GLR-OC192SR   , VID: C  , SN: ECL122000VZ
+
+NAME: "Transceiver Te8/2", DESCR: "Transceiver 10Gbase-LR Te8/2"
+PID: XFP-10GLR-OC192SR   , VID: D  , SN: ECL141403JM
+
+NAME: "Transceiver Te8/3", DESCR: "Transceiver 10Gbase-LR Te8/3"
+PID: XFP-10GLR-OC192SR   , VID: 03 , SN: ONT134411XG
+
+NAME: "Transceiver Te8/4", DESCR: "Transceiver 10Gbase-LR Te8/4"
+PID: XFP-10GLR-OC192SR   , VID: D  , SN: ECL141302X8
+
+NAME: "module 9", DESCR: "76-ES+T-4TG 4 ports 7600 ES+T Rev. 3.0"
+PID: 76-ES+T-4TG       , VID: V09, SN: SAL1929KBUA
+
+NAME: "sub-module of 9", DESCR: "76-ES+T-4TGQ 7600 ES+T 4x10GE XFP ITU Rev. 3.0"
+PID: 76-ES+T-4TGQ      , VID:    , SN: SAL1929KADT
+
+NAME: "switching engine sub-module of 9", DESCR: "7600-ES+3CXL 7600 ES+ DFC XL Rev. 3.0"
+PID: 7600-ES+3CXL      , VID:    , SN: SAL1928JX4D
+
+NAME: "Transceiver Te9/1", DESCR: "Transceiver 10Gbase-LR Te9/1"
+PID: XFP-10GLR-OC192SR   , VID: C  , SN: ECL121903PG
+
+NAME: "Transceiver Te9/2", DESCR: "Transceiver 10Gbase-LR Te9/2"
+PID: XFP-10GLR-OC192SR   , VID: 03 , SN: ONT134411PC
+
+NAME: "Transceiver Te9/3", DESCR: "Transceiver 10Gbase-LR Te9/3"
+PID: XFP-10GLR-OC192SR   , VID: 03 , SN: ONT134411PV
+
+NAME: "Transceiver Te9/4", DESCR: "Transceiver 10Gbase-LR Te9/4"
+PID: XFP-10GLR-OC192SR   , VID: 03 , SN: ONT141510Y0
+
+NAME: "FAN-MOD-9SHS 1", DESCR: "High Speed Fan Module for CISCO7609-S 1"
+PID: FAN-MOD-9SHS      , VID: V01, SN: FOX1219G3Z9
+
+NAME: "FAN-MOD-9SHS 2", DESCR: "High Speed Fan Module for CISCO7609-S 2"
+PID: FAN-MOD-9SHS      , VID: V01, SN: FOX1219G3Z8
+
+NAME: "PS 1 PWR-6000-DC", DESCR: "DC power supply, 6000 watt 1"
+PID: PWR-6000-DC       , VID: V01, SN: AZS12030KJQ
+
+NAME: "PS 2 PWR-6000-DC", DESCR: "DC power supply, 6000 watt 2"
+PID: PWR-6000-DC       , VID: V01, SN: AZS12030KJN
+
+
+bru-11-r4>
+bru-11-r4>
+bru-11-r4>

@@ -1,0 +1,421 @@
+*A:frn-swi-r302# show card detail
+
+===============================================================================
+Card 1
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+1         imm4-100gb-cfp4                          up    up
+IOM Card Specific Data
+    Capabilities                  : SR
+    Clock source                  : none
+    Named Pool Mode               : Disabled
+    Fail On Error                 : Disabled
+    Reset On Recoverable Error    : Disabled
+    Available MDA slots           : 1
+    Installed MDAs                : 1
+
+FP 1 Specific Data
+    WRED Admin State              : Out Of Service
+    WRED buffer-allocation max    : 2500
+    WRED buffer-allocation min    : 2500
+    WRED reserved-cbs max         : 2500
+    WRED reserved-cbs min         : 2500
+    WRED Slope Policy             : default
+    hi-bw-mc-srcEgress Alarm      : disabled
+    hi-bw-mc-srcEgress Group      : 0
+    mc-path-mgmt Admin State      : Out Of Service
+    Ingress Bandwidth Policy      : default
+    Stable Pool Sizing            : False
+    Ingress Buffer Allocation     : 50.00
+    Ingress Buffer Pool Size      : 3809280 KB
+    Egress Buffer Pool Size       : 3809280 KB
+    Initial Extract Priority Mode : uniform
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE09645AARC01
+    CLEI code                     : IPUCBLJFAA
+    Serial number                 : NS1628F0892
+    Manufacture date              : 08052016
+    Manufacturing deviations      : (Not Specified)
+    Manufacturing assembly number : 82-0663-02
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 55C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-I-14.0.R4 iom/hops Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:26:15 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2016/09/26 19:03:15
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:ce:9b:c7
+    Firmware revision status      : acceptable
+    Last bootup reason            : hard boot
+    Memory capacity               : 4,096 MB
+
+===============================================================================
+Card 2
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+2         imm40-10gb-sfp                           up    up
+IOM Card Specific Data
+    Capabilities                  : SR
+    Clock source                  : none
+    Named Pool Mode               : Disabled
+    Fail On Error                 : Disabled
+    Reset On Recoverable Error    : Disabled
+    Available MDA slots           : 1
+    Installed MDAs                : 1
+
+FP 1 Specific Data
+    WRED Admin State              : Out Of Service
+    WRED buffer-allocation max    : 2500
+    WRED buffer-allocation min    : 2500
+    WRED reserved-cbs max         : 2500
+    WRED reserved-cbs min         : 2500
+    WRED Slope Policy             : default
+    hi-bw-mc-srcEgress Alarm      : disabled
+    hi-bw-mc-srcEgress Group      : 0
+    mc-path-mgmt Admin State      : Out Of Service
+    Ingress Bandwidth Policy      : default
+    Stable Pool Sizing            : False
+    Ingress Buffer Allocation     : 50.00
+    Ingress Buffer Pool Size      : 3809280 KB
+    Egress Buffer Pool Size       : 3809280 KB
+    Initial Extract Priority Mode : uniform
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE08424AARA01
+    CLEI code                     : IPUCBG3FAA
+    Serial number                 : NS151966141
+    Manufacture date              : 08172016
+    Manufacturing deviations      : (Not Specified)
+    Manufacturing assembly number : 82-0490-04
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 54C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-I-14.0.R4 iom/hops Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:26:15 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2016/09/26 19:03:34
+    Current alarm state           : alarm cleared
+    Base MAC address              : e4:81:84:26:33:87
+    Firmware revision status      : acceptable
+    Last bootup reason            : hard boot
+    Memory capacity               : 4,096 MB
+
+===============================================================================
+Card 7
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+7         imm48-1gb-sfp-c                          up    up
+IOM Card Specific Data
+    Capabilities                  : SR
+    Clock source                  : none
+    Named Pool Mode               : Disabled
+    Fail On Error                 : Disabled
+    Reset On Recoverable Error    : Disabled
+    Available MDA slots           : 2
+    Installed MDAs                : 2
+
+FP 1 Specific Data
+    WRED Admin State              : Out Of Service
+    WRED buffer-allocation max    : 2500
+    WRED buffer-allocation min    : 2500
+    WRED reserved-cbs max         : 2500
+    WRED reserved-cbs min         : 2500
+    WRED Slope Policy             : default
+    hi-bw-mc-srcEgress Alarm      : disabled
+    hi-bw-mc-srcEgress Group      : 0
+    mc-path-mgmt Admin State      : Out Of Service
+    Ingress Bandwidth Policy      : default
+    Stable Pool Sizing            : False
+    Ingress Buffer Allocation     : 50.00
+    Ingress Buffer Pool Size      : 374784 KB
+    Egress Buffer Pool Size       : 374784 KB
+    Initial Extract Priority Mode : uniform
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE09279AARB01
+    CLEI code                     : IP9IAUGEAA
+    Serial number                 : NS1628F1316
+    Manufacture date              : 07082016
+    Manufacturing deviations      : (Not Specified)
+    Manufacturing assembly number : 82-0528-07
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 37C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-13.0.R4 on Wed Jul 29 15:56:20 PDT 2015
+                                    by builder
+    Software version              : TiMOS-I-14.0.R4 iom/hops Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:26:15 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2016/09/26 19:03:34
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:e1:7a:71
+    Firmware revision status      : acceptable
+    Last bootup reason            : hard boot
+    Memory capacity               : 4,096 MB
+
+===============================================================================
+Card 8
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+8         imm40-10gb-sfp                           up    up
+IOM Card Specific Data
+    Capabilities                  : SR
+    Clock source                  : none
+    Named Pool Mode               : Disabled
+    Fail On Error                 : Disabled
+    Reset On Recoverable Error    : Disabled
+    Available MDA slots           : 1
+    Installed MDAs                : 1
+
+FP 1 Specific Data
+    WRED Admin State              : Out Of Service
+    WRED buffer-allocation max    : 2500
+    WRED buffer-allocation min    : 2500
+    WRED reserved-cbs max         : 2500
+    WRED reserved-cbs min         : 2500
+    WRED Slope Policy             : default
+    hi-bw-mc-srcEgress Alarm      : disabled
+    hi-bw-mc-srcEgress Group      : 0
+    mc-path-mgmt Admin State      : Out Of Service
+    Ingress Bandwidth Policy      : default
+    Stable Pool Sizing            : False
+    Ingress Buffer Allocation     : 50.00
+    Ingress Buffer Pool Size      : 3809280 KB
+    Egress Buffer Pool Size       : 3809280 KB
+    Initial Extract Priority Mode : uniform
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE08424AARC01
+    CLEI code                     : IPUCBG3FAA
+    Serial number                 : NS1628F0811
+    Manufacture date              : 07282016
+    Manufacturing deviations      : (Not Specified)
+    Manufacturing assembly number : 82-0490-04
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 57C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-I-14.0.R4 iom/hops Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:26:15 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2017/01/21 20:32:51
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:e1:82:07
+    Firmware revision status      : acceptable
+    Last bootup reason            : runtime failure
+    Memory capacity               : 4,096 MB
+
+===============================================================================
+Card 9
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+9         imm4-100gb-cfp4                          up    up
+IOM Card Specific Data
+    Capabilities                  : SR
+    Clock source                  : none
+    Named Pool Mode               : Disabled
+    Fail On Error                 : Disabled
+    Reset On Recoverable Error    : Disabled
+    Available MDA slots           : 1
+    Installed MDAs                : 1
+
+FP 1 Specific Data
+    WRED Admin State              : Out Of Service
+    WRED buffer-allocation max    : 2500
+    WRED buffer-allocation min    : 2500
+    WRED reserved-cbs max         : 2500
+    WRED reserved-cbs min         : 2500
+    WRED Slope Policy             : default
+    hi-bw-mc-srcEgress Alarm      : disabled
+    hi-bw-mc-srcEgress Group      : 0
+    mc-path-mgmt Admin State      : Out Of Service
+    Ingress Bandwidth Policy      : default
+    Stable Pool Sizing            : False
+    Ingress Buffer Allocation     : 50.00
+    Ingress Buffer Pool Size      : 3809280 KB
+    Egress Buffer Pool Size       : 3809280 KB
+    Initial Extract Priority Mode : uniform
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE09645AARC01
+    CLEI code                     : IPUCBLJFAA
+    Serial number                 : NS1631F0398
+    Manufacture date              : 08022016
+    Manufacturing deviations      : (Not Specified)
+    Manufacturing assembly number : 82-0663-02
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 60C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-I-14.0.R4 iom/hops Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:26:15 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2016/09/26 19:03:54
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:18:3d:53
+    Firmware revision status      : acceptable
+    Last bootup reason            : hard boot
+    Memory capacity               : 4,096 MB
+
+===============================================================================
+Card A
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+A         cpm5                                     up    up/active
+BOF last modified                 : N/A
+Config file version               : MON SEP 26 18:55:07 2016 UTC
+Config file last modified         : 2017/05/08 11:37:23
+Config file last saved            : 2017/05/08 00:00:06
+M/S clocking ref state            : primary
+
+Flash - cf1:
+    Administrative State          : up
+    Operational state             : not equipped
+
+Flash - cf2:
+    Administrative State          : up
+    Operational state             : not equipped
+
+Flash - cf3:
+    Administrative State          : up
+    Operational state             : up
+    Serial number                 : 000060112928A1000113
+    Firmware revision             : 110301a
+    Model number                  : SFCF4096H1BO2TO-I-D1-543-ALU
+    Size                          : 3,903 MB
+    Free space                    : 2,340 MB
+    Percent Used                  : 40 %
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE08423AARC01
+    CLEI code                     : IPUCBGZ1AA
+    Serial number                 : NS162662746
+    Manufacture date              : 08282016
+    Manufacturing deviations      : D03579
+    Manufacturing assembly number : 82-0553-05
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 37C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-C-14.0.R4 cpm/hops64 Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:28:47 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2017/01/13 15:32:35
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:cf:11:91
+    Firmware revision status      : acceptable
+    Memory capacity               : 16,384 MB
+    System timing oscillator type : OCXO
+
+===============================================================================
+Card B
+===============================================================================
+Slot      Provisioned Type                         Admin Operational   Comments
+              Equipped Type (if different)         State State
+-------------------------------------------------------------------------------
+B         cpm5                                     up    up/standby
+BOF last modified                 : N/A
+Config file version               :
+Config file last modified         : N/A
+Config file last saved            : N/A
+M/S clocking ref state            : secondary
+
+Flash - cf1:
+    Administrative State          : up
+    Operational state             : not equipped
+
+Flash - cf2:
+    Administrative State          : up
+    Operational state             : not equipped
+
+Flash - cf3:
+    Administrative State          : up
+    Operational state             : up
+    Serial number                 : 000060112928A100010B
+    Firmware revision             : 110301a
+    Model number                  : SFCF4096H1BO2TO-I-D1-543-ALU
+    Size                          : 3,903 MB
+    Free space                    : 2,909 MB
+    Percent Used                  : 25 %
+
+Hardware Data
+    Platform type                 : 7750
+    Part number                   : 3HE08423AARC01
+    CLEI code                     : IPUCBGZ1AA
+    Serial number                 : NS162266721
+    Manufacture date              : 08282016
+    Manufacturing deviations      : D03579
+    Manufacturing assembly number : 82-0553-05
+    Administrative state          : up
+    Operational state             : up
+    Temperature                   : 37C
+    Temperature threshold         : 75C
+    Software boot (rom) version   : X-14.0.R1 on Sun Mar 6 17:59:52 PST 2016
+                                    by builder
+    Software version              : TiMOS-C-14.0.R4 cpm/hops64 Nokia 7750 SR
+                                    Copyright (c) 2000-2016 Nokia.
+                                    All rights reserved. All use subject to
+                                    applicable license agreements.
+                                    Built on Thu Jul 28 17:28:47 PDT 2016 by
+                                    builder in /rel14.0/b1/R4/panos/main
+    Time of last boot             : 2017/01/13 15:35:00
+    Current alarm state           : alarm cleared
+    Base MAC address              : a4:7b:2c:71:cc:df
+    Firmware revision status      : acceptable
+    Memory capacity               : 16,384 MB
+    System timing oscillator type : OCXO
+===============================================================================
+*A:frn-swi-r302#
+*A:frn-swi-r302#
+*A:frn-swi-r302# 
